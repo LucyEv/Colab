@@ -18,7 +18,6 @@ print(transform('!'))
 # function apply_transform(string1,func)
 # goes thru each letter of the string and applies function "func" to each letter
 
-
 def transform(letter,k):
   if (letter>='a' and letter <='z'):
     assci_of_first_letter=ord('a')
@@ -40,7 +39,7 @@ def apply_transform(string1,func,k):
     print(transformed_letter,end='')
     i+=1
 
-# add function as parameter
+#add function as parameter
 apply_transform("Les stagiaires du staff ne sentent pas toujours tres bon",transform,1)
 
 def plus(x):
