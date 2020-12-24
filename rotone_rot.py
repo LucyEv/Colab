@@ -16,7 +16,7 @@ print(transform('1'))
 print(transform('!'))
 
 # function apply_transform(string1,func)
-# goes thru each letter of the string and applies function "func" to each letter
+# goes through each letter of the string and applies function "func" to each letter
 
 def transform(letter,k):
   if (letter>='a' and letter <='z'):
